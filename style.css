@@ -701,8 +701,8 @@ section {
 /* -------------footer//////// ---------*/
 .footer {
     padding: 80px 0;
-    background-color: var(--dark);
-    background-image: url('./images/footerbgblacck.jpeg');
+    background-color: var(--dark-light);
+    /* background-image: url('./images/footerbgblacck.jpeg'); */
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
