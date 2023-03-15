@@ -141,7 +141,10 @@ section {
     font-weight: 400;
     text-transform: capitalize;
 }
-
+.section-title-book{
+    margin-top: 16px;
+    text-align: center;
+}
 /* --------------------------buttons---------------------- */
 .btn {
     display: inline-block;
