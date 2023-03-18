@@ -5,7 +5,10 @@ window.addEventListener("load", function () {
     document.querySelector(".page-loader").style.display = "none";
   }, 600);
   /*------------------animation on scroll------------------------*/
-  AOS.init();
+  AOS.init({
+ once: true,
+});
+  
 });
 /*--------------------------------toggle navbar---------------------*/
 
