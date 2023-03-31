@@ -535,7 +535,7 @@ section {
 }
 
 .menu-section .section-title {
-    margin-bottom: 40px;
+    margin-bottom: 10px;
 }
 
 
@@ -885,7 +885,7 @@ section {
 .slider-container .prev,
 .slider-container .next {
     position: absolute;
-    bottom: -50px;
+    bottom: -49px;
     transform: translateY(-50%);
     color: #fff;
     font-weight: bold;
@@ -895,11 +895,11 @@ section {
     cursor: pointer;
 }
 .slider-container .next {
-    right: 0px;
+    right: 25%;
 }
 
 .slider-container .prev {
-    right: 40px;
+    left: 25%;
 }
 
 }
@@ -923,7 +923,7 @@ section {
 .slider-container .prev,
 .slider-container .next {
     position: absolute;
-    bottom: -50px;
+    bottom: -49px;
     transform: translateY(-50%);
     color: #fff;
     font-weight: bold;
