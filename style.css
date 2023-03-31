@@ -945,3 +945,56 @@ section {
 
     
 }
+
+/* Style for the pop-up box */
+.popup {
+    
+	position: fixed;
+	z-index: 9999;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.8);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	visibility: hidden;
+	opacity: 0;
+	transition: visibility 0s, opacity 0.5s ease-in-out;
+}
+.popup img{
+    border-radius: 10px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+.popup span{
+    color: var(--main-color);
+    font-weight: 400;
+}
+.popup p{
+    color: #808080;
+}
+
+.popup-content {
+    margin: 15px;
+	background-color: white;
+	padding: 20px;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.close-button {
+	background-color:white;
+	color: var(--main-color);
+	padding: 10px 20px;
+	border-radius: 10px;
+	cursor: pointer;
+	margin-top: 20px;
+    border-color: var(--main-color);
+}
+
+.close-button:hover {
+    color: white;
+	background-color: var(--main-color);
+}

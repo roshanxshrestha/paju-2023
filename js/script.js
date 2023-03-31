@@ -92,3 +92,18 @@ function currentSlide(n) {
 
   showImage((slideIndex = n));
 }
+
+// Display the pop-up box after 2 seconds
+setTimeout(function () {
+  var popup = document.getElementById("popup");
+  popup.style.visibility = "visible";
+  popup.style.opacity = "1";
+}, 2000);
+
+// Close the pop-up box when the close button is clicked
+var closeButton = document.getElementById("close-button");
+closeButton.onclick = function () {
+  var popup = document.getElementById("popup");
+  popup.style.visibility = "hidden";
+  popup.style.opacity = "0";
+};
