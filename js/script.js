@@ -6,9 +6,8 @@ window.addEventListener("load", function () {
   }, 600);
   /*------------------animation on scroll------------------------*/
   AOS.init({
- once: true,
-});
-  
+    once: true,
+  });
 });
 /*--------------------------------toggle navbar---------------------*/
 
