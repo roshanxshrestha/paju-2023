@@ -117,7 +117,13 @@ p {
 section {
     overflow: hidden;
 }
-
+/* Style for the visit count */
+#visitCount {
+    background-color: var(--main-color);
+    color: #fff;
+    padding: 3px 8px;
+    border-radius: 5px;
+}
 /* -------------section title-------------- */
 .section-title {
 
