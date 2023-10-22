@@ -107,3 +107,15 @@ closeButton.onclick = function () {
   popup.style.visibility = "hidden";
   popup.style.opacity = "0";
 };
+
+// Check if the count is stored in local storage
+let count = localStorage.getItem("visitCount") || 0;
+
+// Increment the count
+count++;
+
+// Update the count and store it in local storage
+localStorage.setItem("visitCount", count);
+
+// Display the count on the webpage
+document.getElementById("visitCount").textContent = count;
